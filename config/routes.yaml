@@ -1,3 +1,14 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+creditScore_list:
+  path: /api/v1/creditScore
+  controller: App\Controller\CreditScoreController:index
+  methods: [GET]
+ 
+
+creditScore_create:
+  path: /api/v1/creditScore
+  controller: App\Controller\CreditScoreController:create
+  methods: [POST]
+
+api_login_check:
+    path: /api/login_check
+ 
